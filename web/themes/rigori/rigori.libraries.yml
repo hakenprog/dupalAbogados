@@ -8,14 +8,14 @@ global-styling:
       css/colors.css: {}
 bootstrap:
   js:
-    /libraries/bootstrap/js/bootstrap.bundle.min.js: {}
+    libraries/vendor/bootstrap/js/bootstrap.min.js: {}
   css:
     component:
-      /libraries/bootstrap/css/bootstrap.min.css: {}
+      libraries/vendor/bootstrap/css/bootstrap.min.css: {}
 bootstrap_cdn:
   js:
     //cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js: {}
-    //stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js: {}
+    //stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js: {}
   css:
     component:
       //stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css: {}

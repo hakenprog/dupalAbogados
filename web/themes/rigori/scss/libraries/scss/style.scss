@@ -5,8 +5,14 @@
 @import "footer";
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-.periflesImagenes {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
+.perfilImagenes {
+padding: 50px 6px;
+float: left;
+width: 15%;
+}
+.perfilTitulo {
+	width: 60%;
+}
+.perfilBody{
+	width: 60%;
 }

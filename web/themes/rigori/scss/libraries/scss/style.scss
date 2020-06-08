@@ -1,8 +1,12 @@
 @import "custom";
+@import "header";
+@import "slider";
+@import "maincontent";
+@import "footer";
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
 .periflesImagenes {
-	  padding: 0 6px;
-  	float: left;
+  padding: 0 6px;
+  float: left;
   width: 24.99999%;
 }

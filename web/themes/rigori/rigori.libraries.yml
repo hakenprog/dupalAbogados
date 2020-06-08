@@ -8,7 +8,7 @@ global-styling:
       css/colors.css: {}
 bootstrap:
   js:
-    libraries/vendor/bootstrap/js/bootstrap.min.js: {}
+    scss/libraries/node_modules/bootstrap/js/bootstrap.min.js: {}
   css:
     component:
       libraries/vendor/bootstrap/css/bootstrap.min.css: {}

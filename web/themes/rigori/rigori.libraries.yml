@@ -8,10 +8,7 @@ global-styling:
       css/colors.css: {}
 bootstrap:
   js:
-    scss/libraries/node_modules/bootstrap/js/bootstrap.min.js: {}
-  css:
-    component:
-      libraries/vendor/bootstrap/css/bootstrap.min.css: {}
+    scss/libraries/node_modules/bootstrap/dist/js/bootstrap.min.js: {}
 bootstrap_cdn:
   js:
     //cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js: {}

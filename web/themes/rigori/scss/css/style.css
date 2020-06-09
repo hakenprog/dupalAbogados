@@ -6,29 +6,11 @@
   color: white;
   margin: 5%;
   padding: 2%;
-  top: 16%;
-  background-color: rgba(0, 0, 0, 0.45);
-  border-top: darkorange solid 1px; }
-  .textoPublicacion div {
-    border-top: darkorange solid 2px; }
-    .textoPublicacion div span {
-      display: block;
-      margin: 10px 0px 0px 0px; }
+  background-color: rgba(0, 0, 0, 0.6); }
 
 .subtituloPublicacion {
   display: block;
-  margin: 0 0 8% 0; }
-
-.perfilImagenes {
-  padding-left: 40px;
-  float: left;
-  width: 40%; }
-
-.perfilTitulo {
-  width: 100%; }
-
-.perfilBody {
-  width: 90%; }
+  border-bottom: darkorange solid 1px; }
 
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
@@ -7781,5 +7763,15 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
+.perfilImagenes {
+  padding-left: 40px;
+  float: left;
+  width: 40%; }
+
+.perfilTitulo {
+  width: 100%; }
+
+.perfilBody {
+  width: 90%; }
 
 /*# sourceMappingURL=style.css.map */

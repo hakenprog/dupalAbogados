@@ -3,16 +3,5 @@
 @import "slider";
 @import "maincontent";
 @import "footer";
+@import "perfiles";
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
-
-.perfilImagenes {
-padding-left: 40px;
-float: left;
-width: 40%;
-}
-.perfilTitulo {
-	width: 100%;
-}
-.perfilBody{
-	width: 90%;
-}

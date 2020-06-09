@@ -1,6 +1,6 @@
 $color-text-cards: white;
 $color-border-title: darkorange;
-$color-background-text: rgba(0,0,0,0.6);
+$color-background-text: rgba(0,0,0,0.45);
  
 .publicationCardContainer{
 	padding: 0px 7px 0px 0px;
@@ -11,11 +11,22 @@ $color-background-text: rgba(0,0,0,0.6);
 	color:$color-text-cards;
 	margin: 5%;
 	padding: 2%;
+	top: 16%;
 	background-color: $color-background-text;
-	.subtituloPublicacion{
-		display:block;
-		border-bottom: $color-border-title solid 1px;
+	border-top: $color-border-title solid 1px;
+	div {
+		border-top: $color-border-title solid 2px;
+		span{
+			display:block;
+			margin: 10px 0px 0px 0px;
+		}
 	}
-	
 }
+
+.subtituloPublicacion{
+	display:block;
+	margin: 0 0 8% 0;
+}
+	
+
 

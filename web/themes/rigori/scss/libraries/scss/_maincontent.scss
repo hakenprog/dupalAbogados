@@ -1,1 +1,21 @@
+$color-text-cards: white;
+$color-border-title: darkorange;
+$color-background-text: rgba(0,0,0,0.6);
+ 
+.publicationCardContainer{
+	padding: 0px 7px 0px 0px;
+}
+
+.textoPublicacion{
+	position: absolute;
+	color:$color-text-cards;
+	margin: 5%;
+	padding: 2%;
+	background-color: $color-background-text;
+	.subtituloPublicacion{
+		display:block;
+		border-bottom: $color-border-title solid 1px;
+	}
+	
+}
 

@@ -7,13 +7,15 @@
               scroll_start = jQuery(document).scrollTop();
               if(scroll_start > offset.top) {
                   jQuery(".navbar").css({'background-color': 'darkorange', 'transition': '400ms'});
+		  jQuery(".logo").css({'width':'80%'})
               } else {
                   jQuery('.navbar').css('background-color', 'transparent');
+		  jQuery(".logo").css({'width':'100%', 'transition': '400ms'} )
               }
           });
       
    } else {
-       jQuery(".header").css('height','56px');
+       jQuery(".header").css('height','96px');
        jQuery(".navbar").css({'background-color': 'darkorange'});
      }
  }))

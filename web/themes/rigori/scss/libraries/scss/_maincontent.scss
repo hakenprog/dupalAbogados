@@ -1,5 +1,5 @@
 $color-text-cards: white;
-$color-border-title: darkorange;
+$color-border-title: $color-principal;
 $color-background-text: rgba(0,0,0,0.45);
 
 #block-views-block-slide-articulos-principal-block-1{
@@ -48,16 +48,9 @@ $color-background-text: rgba(0,0,0,0.45);
 	background-color: darkorange !important;
 }
 
-#block-views-block-publicacion-imagen-block-1{
-	margin-top: 1%;
-	padding: 0 9%;
-	h2{
-		padding: 0px 0px 1% 0px;
-		border-bottom: 7px solid $color-border-title;
-		display: inline-block;
-		margin-bottom: 0;			
-	}
 
+#block-views-block-publicacion-imagen-block-1{
+	@include viewFormat();
 }
  
 .publicationCardContainer{
@@ -102,6 +95,13 @@ $color-background-text: rgba(0,0,0,0.45);
 
 	.botonSlide{
 		display:none !important;
+	}
+
+	.highlighted{
+		margin-top:96px
+	}
+	.navbar{
+		background-color: $color-border-title !important;
 	}
 }
 

@@ -1,3 +1,17 @@
+
+@mixin viewFormat(){
+        margin-top: 1%;
+        padding: 0 9%;
+        h2{
+                padding: 0px 0px 1% 0px;
+                border-bottom: 7px solid $color-border-title;
+                display: inline-block;
+                margin-bottom: 0;
+        }
+}
+
+
+$color-principal: darkorange;
 $container-max-widths: (
 
 	xl:1250px

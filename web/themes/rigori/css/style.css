@@ -4,11 +4,12 @@
 #navbar-main {
   background-color: transparent; }
 
-.image-title-carousel-desktop {
-  position: absolute;
-  top: 70%;
-  left: 10%;
-  width: 100%; }
+.cardProfileFormat {
+  color: white;
+  background-color: backgroundCardColor !important; }
+
+.cardGridFormat {
+  padding: 40px 0 0 0; }
 
 #block-views-block-slide-articulos-principal-block-1 {
   position: absolute;
@@ -79,7 +80,13 @@
     padding: 0; }
 
   .botonSlide {
-    display: none !important; } }
+    display: none !important; }
+
+  .highlighted {
+    margin-top: 96px; }
+
+  .navbar {
+    background-color: darkorange !important; } }
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors

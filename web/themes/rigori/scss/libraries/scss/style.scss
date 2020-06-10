@@ -1,7 +1,22 @@
 @import "custom";
 @import "header";
 @import "slider";
-@import "maincontent";
 @import "footer";
 @import "perfiles";
+@import "maincontent";
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+
+
+$title-text-color: #3E3E3E;
+
+body {
+	h1{
+	color: $title-text-color;
+	}
+	h2 {
+	color: $title-text-color;
+	}
+	
+}

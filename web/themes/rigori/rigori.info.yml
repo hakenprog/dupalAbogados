@@ -8,6 +8,7 @@ base theme: bootstrap_barrio
 libraries:
   - rigori/bootstrap
   - rigori/global-styling
+  - rigori/globar-scripts
 
 regions:
   top_header: 'Top header'

@@ -1,9 +1,68 @@
 $color-text-cards: white;
 $color-border-title: darkorange;
 $color-background-text: rgba(0,0,0,0.45);
+
+#block-views-block-slide-articulos-principal-block-1{
+	position: absolute;
+	margin: 26% 30% 0px 30%;
+	width: 40%;	
+}
+
+.content {
+	
+}
+
+#main{
+	/*padding: 0%;*/
+
+}
+#content {
+	/*padding: 0%;*/
+}
+
+.slideBackground{
+	
+}
+
+.textSlide{
+	position:absolute;
+}
+
+.textSlideContainer{
+	top:3%;
+	border-radius:10px;
+	margin: 8% 10% 0 10%;
+	h1{
+		color:white;
+		border-bottom: 3px solid $color-border-title;
+        }
+        h2{
+		color:white;
+        }
+	
+}
+
+.botonSlide {
+	font-size: 2em !important;
+	color: white !important;
+	background-color: darkorange !important;
+}
+
+#block-views-block-publicacion-imagen-block-1{
+	margin-top: 1%;
+	padding: 0 9%;
+	h2{
+		padding: 0px 0px 1% 0px;
+		border-bottom: 7px solid $color-border-title;
+		display: inline-block;
+		margin-bottom: 0;			
+	}
+
+}
  
 .publicationCardContainer{
-	padding: 0px 7px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4) !important;
 }
 
 .textoPublicacion{
@@ -11,7 +70,7 @@ $color-background-text: rgba(0,0,0,0.45);
 	color:$color-text-cards;
 	margin: 5%;
 	padding: 2%;
-	top: 16%;
+	/*top: 16%;*/
 	background-color: $color-background-text;
 	border-top: $color-border-title solid 1px;
 	div {
@@ -29,4 +88,20 @@ $color-background-text: rgba(0,0,0,0.45);
 }
 	
 
+
+@media (max-width: 768px){
+	.textSlideContainer{
+		h2{
+			display:none
+		}
+	}
+	#block-views-block-publicacion-imagen-block-1 {
+		margin-top: 1%;
+		padding: 0;
+	}
+
+	.botonSlide{
+		display:none !important;
+	}
+}
 

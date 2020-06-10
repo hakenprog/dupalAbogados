@@ -6,6 +6,10 @@ global-styling:
     component:
       css/style.css: {}
       css/colors.css: {}
+globar-scripts:
+  js:
+    js/navbar_scroll.js: {}
+
 bootstrap:
   js:
     scss/libraries/node_modules/bootstrap/dist/js/bootstrap.min.js: {}

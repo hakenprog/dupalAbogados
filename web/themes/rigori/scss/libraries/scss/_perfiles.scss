@@ -5,5 +5,14 @@ text-align: center;
 }
 
 .perfilTitulo{
-	color:white
+	color:white !important;
+}
+
+.perfilEmail{
+	display: flex;
+	height: 60px;
+	align-items: center;
+	justify-content: center;
+	background-color: darkorange;
+	font-weight: bold;
 }

@@ -1,7 +1,11 @@
 .perfilCampo{
-color: white;
-background-color: black;
+background-color: #D6855C;
 text-align: center;
+font-size: 30px;
+	a{
+		color: white;
+		text-decoration: none;
+	}
 }
 
 .perfilTitulo{
@@ -15,4 +19,5 @@ text-align: center;
 	justify-content: center;
 	background-color: darkorange;
 	font-weight: bold;
+	color: white;
 }

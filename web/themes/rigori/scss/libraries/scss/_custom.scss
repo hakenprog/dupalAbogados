@@ -1,3 +1,16 @@
+$color-principal: darkorange;
+$title-text-color: #3E3E3E;
+$color-border-title: $color-principal;
+
+
+
+body {
+        h1, h2, h3, h4, h5, h6, p, span{
+        color: $title-text-color;
+        }
+
+
+}
 
 @mixin viewFormat(){
         margin-top: 1%;
@@ -11,7 +24,7 @@
 }
 
 
-$color-principal: darkorange;
+;
 $container-max-widths: (
 
 	xl:1250px

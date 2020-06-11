@@ -1,15 +1,58 @@
+body h1, body h2, body h3, body h4, body h5, body h6, body p, body span {
+  color: #3E3E3E; }
+
 .header {
   height: 0px; }
 
 #navbar-main {
   background-color: transparent; }
 
-.cardProfileFormat {
-  color: white;
-  background-color: backgroundCardColor !important; }
+.perfilCampo {
+  background-color: #D6855C;
+  text-align: center;
+  font-size: inherit;
+  display: flex;
+  height: 60px;
+  align-items: baseline;
+  justify-content: center;
+  align-items: center; }
+  .perfilCampo a {
+    color: white;
+    text-decoration: none; }
+  .perfilCampo a:hover {
+    text-decoration: none;
+    color: white; }
 
-.cardGridFormat {
-  padding: 40px 0 0 0; }
+.perfilTarjeta {
+  padding-top: 50px; }
+
+.perfilEmail {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  background-color: darkorange;
+  color: white; }
+
+.perfilContenido {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.perfilBloque {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#block-views-block-perfiles-block-1 {
+  margin-top: 1%;
+  padding: 0 9%; }
+  #block-views-block-perfiles-block-1 h2 {
+    padding: 0px 0px 1% 0px;
+    border-bottom: 7px solid darkorange;
+    display: inline-block;
+    margin-bottom: 0; }
 
 #block-views-block-slide-articulos-principal-block-1 {
   position: absolute;
@@ -28,17 +71,16 @@
 .textSlideContainer {
   top: 3%;
   border-radius: 10px;
-  margin: 8% 10% 0 10%; }
+  margin: 10% 10% 0 10%; }
   .textSlideContainer h1 {
     color: white;
-    border-bottom: 3px solid darkorange; }
+    border-bottom: 1px solid darkorange; }
   .textSlideContainer h2 {
     color: white; }
-
-.botonSlide {
-  font-size: 2em !important;
-  color: white !important;
-  background-color: darkorange !important; }
+  .textSlideContainer a {
+    font-size: 2em;
+    color: white;
+    background-color: darkorange; }
 
 #block-views-block-publicacion-imagen-block-1 {
   margin-top: 1%;
@@ -61,6 +103,8 @@
   /*top: 16%;*/
   background-color: rgba(0, 0, 0, 0.45);
   border-top: darkorange solid 1px; }
+  .textoPublicacion h5, .textoPublicacion h6, .textoPublicacion span {
+    color: white; }
   .textoPublicacion div {
     border-top: darkorange solid 2px; }
     .textoPublicacion div span {
@@ -71,8 +115,34 @@
   display: block;
   margin: 0 0 8% 0; }
 
+#block-views-block-destacados-vista-block-1 {
+  margin-top: 1%;
+  padding: 0 9%; }
+  #block-views-block-destacados-vista-block-1 h2 {
+    padding: 0px 0px 1% 0px;
+    border-bottom: 7px solid darkorange;
+    display: inline-block;
+    margin-bottom: 0; }
+
+.destacadosContainer {
+  background-color: rgba(127, 127, 127, 0.3); }
+  .destacadosContainer h6 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    padding-top: 0.5em; }
+  .destacadosContainer span {
+    display: block;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em; }
+
+.imgDestacadosContainer {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-content: center; }
+
 @media (max-width: 768px) {
-  .textSlideContainer h2 {
+  .textSlideContainer h2, .textSlideContainer a {
     display: none; }
 
   #block-views-block-publicacion-imagen-block-1 {
@@ -7838,9 +7908,5 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
-body h1 {
-  color: #3E3E3E; }
-body h2 {
-  color: #3E3E3E; }
 
 /*# sourceMappingURL=style.css.map */

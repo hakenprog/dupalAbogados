@@ -31,23 +31,21 @@ $color-background-text: rgba(0,0,0,0.45);
 .textSlideContainer{
 	top:3%;
 	border-radius:10px;
-	margin: 8% 10% 0 10%;
+	margin: 10% 10% 0 10%;
 	h1{
 		color:white;
-		border-bottom: 3px solid $color-border-title;
+		border-bottom: 1px solid $color-border-title;
         }
         h2{
 		color:white;
         }
+	a{
+		font-size: 2em;
+        	color: white;
+        	background-color: darkorange;
+	}
 	
 }
-
-.botonSlide {
-	font-size: 2em !important;
-	color: white !important;
-	background-color: darkorange !important;
-}
-
 
 #block-views-block-publicacion-imagen-block-1{
 	@include viewFormat();
@@ -66,6 +64,9 @@ $color-background-text: rgba(0,0,0,0.45);
 	/*top: 16%;*/
 	background-color: $color-background-text;
 	border-top: $color-border-title solid 1px;
+	h5, h6, span{
+		color:white;
+	}
 	div {
 		border-top: $color-border-title solid 2px;
 		span{
@@ -80,13 +81,37 @@ $color-background-text: rgba(0,0,0,0.45);
 	margin: 0 0 8% 0;
 }
 	
+#block-views-block-destacados-vista-block-1{
+	@include viewFormat();
+}
 
+.destacadosContainer{
+	background-color: rgba(127, 127, 127,0.3);
+	h6{
+		font-size: 2em;
+		margin-bottom: 0.5em;
+		padding-top: 0.5em;
+	}
+	span{
+		display: block;
+		padding-top:1.5em;
+		padding-bottom: 1.5em;
+	}
+}
+
+.imgDestacadosContainer{
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
 
 @media (max-width: 768px){
 	.textSlideContainer{
-		h2{
+		h2, a{
 			display:none
 		}
+		
 	}
 	#block-views-block-publicacion-imagen-block-1 {
 		margin-top: 1%;

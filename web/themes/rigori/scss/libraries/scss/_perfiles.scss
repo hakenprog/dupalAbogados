@@ -1,10 +1,12 @@
 .perfilCampo{
 background-color: #D6855C;
 text-align: center;
-font-size: 25px;
-  display: flex;
-  height: 200px;
-  align-items: baseline;
+font-size: inherit;
+display: flex;
+height: 60px;
+align-items: baseline;
+justify-content: center;
+align-content: center;
 	a{
 		color: white;
 		text-decoration: none;

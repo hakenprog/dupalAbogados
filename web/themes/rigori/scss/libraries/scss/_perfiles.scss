@@ -41,3 +41,7 @@ align-items: center;
 	justify-content: center;
 	align-items: center;
 }
+
+#block-views-block-perfiles-block-1{
+	@include viewFormat();
+}

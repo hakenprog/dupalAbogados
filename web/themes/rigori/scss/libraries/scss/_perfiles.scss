@@ -49,3 +49,17 @@ align-items: center;
 #block-views-block-perfiles-home-block-1{
 	@include viewFormat();
 }
+
+
+
+#block-views-block-nosotros-block-1{
+	text-align: center;
+}
+.textoPagNosotros{
+	p{
+		background-color: red;
+		text-align: center;
+	}
+	background-color: red;
+	text-align: center;
+}

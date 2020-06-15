@@ -50,19 +50,3 @@ align-items: center;
 	@include viewFormat();
 }
 
-
-
-#block-views-block-nosotros-block-1{
-	@include viewFormat();
-}
-.textoPagNosotros{
-	span{
-		p{
-			background-color: red;
-			text-align: center;
-		}
-	}
-	background-color: red;
-	text-align: center;
-	width: 1px;
-}

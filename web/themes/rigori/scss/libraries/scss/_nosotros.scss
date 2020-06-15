@@ -2,12 +2,26 @@
 	text-align: center;
 	@include viewFormat();
 }
+
+#block-views-block-perfilempresa-block-1{
+	text-align: center;
+	@include viewFormat();
+}
+
 .textoPagNosotros{
 	p{
 	    padding: 20px 0 0 0;
 	}
 	text-align: center;
 }
+
+.textoPagPerfilEmpresa{
+	p{
+	    padding: 20px 0 0 0;
+	}
+	text-align: center;
+}
+
 .centrarContenido{
 	align-content: center;
 	justify-content: center;

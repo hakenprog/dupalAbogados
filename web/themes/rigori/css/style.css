@@ -7,6 +7,13 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body span {
 #navbar-main {
   background-color: transparent; }
 
+#block-views-block-footer-personalizado-block-1 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border: none;
+  display: flex; }
+
 .perfilCampo {
   background-color: #D6855C;
   text-align: center;
@@ -49,6 +56,15 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body span {
   margin-top: 1%;
   padding: 0 9%; }
   #block-views-block-perfiles-block-1 h2 {
+    padding: 0px 0px 1% 0px;
+    border-bottom: 7px solid darkorange;
+    display: inline-block;
+    margin-bottom: 0; }
+
+#block-views-block-perfiles-home-block-1 {
+  margin-top: 1%;
+  padding: 0 9%; }
+  #block-views-block-perfiles-home-block-1 h2 {
     padding: 0px 0px 1% 0px;
     border-bottom: 7px solid darkorange;
     display: inline-block;
@@ -141,22 +157,69 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body span {
   justify-content: center;
   align-content: center; }
 
+#block-views-block-vista-principal-eventos-block-1 {
+  margin-top: 1%;
+  padding: 0 9%; }
+  #block-views-block-vista-principal-eventos-block-1 h2 {
+    padding: 0px 0px 1% 0px;
+    border-bottom: 7px solid darkorange;
+    display: inline-block;
+    margin-bottom: 0; }
+
+.eventoContainer {
+  /*border: 1px solid darkorange;*/
+  /*border-radius: 20px;*/ }
+
+.evento {
+  padding: 6%;
+  border: 1px solid darkorange;
+  border-radius: 20px; }
+
+.tituloFechaEvento {
+  display: flex;
+  align-items: center; }
+
+.flexFechaEvento {
+  /*display:flex;
+  align-items:center;*/ }
+  .flexFechaEvento h6 {
+    border-bottom: 1px solid darkorange;
+    padding-bottom: 3%; }
+
+.diaEvento {
+  margin-right: 9px; }
+
+.horaEvento {
+  margin-right: 9px; }
+
+.tituloDireccion {
+  display: block; }
+
+.direccionContainer {
+  margin-top: 8px; }
+
 @media (max-width: 768px) {
-  .textSlideContainer h2, .textSlideContainer a {
+  .textSlideContainer a {
     display: none; }
 
   #block-views-block-publicacion-imagen-block-1 {
     margin-top: 1%;
     padding: 0; }
 
-  .botonSlide {
-    display: none !important; }
-
   .highlighted {
     margin-top: 96px; }
 
   .navbar {
     background-color: darkorange !important; } }
+@media (max-width: 840px) {
+  .textSlideContainer h2 {
+    display: none; } }
+@media (max-width: 991px) {
+  .publicationCardContainer {
+    margin-bottom: 1.5em; }
+
+  .destacadoContainer {
+    margin-bottom: 1.5em; } }
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors

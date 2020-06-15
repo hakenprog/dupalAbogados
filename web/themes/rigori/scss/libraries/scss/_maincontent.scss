@@ -106,20 +106,61 @@ $color-background-text: rgba(0,0,0,0.45);
 	align-content: center;
 }
 
+
+#block-views-block-vista-principal-eventos-block-1{
+	@include viewFormat();
+}
+
+.eventoContainer{
+	/*border: 1px solid darkorange;*/
+    	/*border-radius: 20px;*/	
+}
+
+.evento{
+	padding: 6%;
+	border: 1px solid darkorange;
+        border-radius: 20px;
+}
+
+.tituloFechaEvento{
+	display:flex;
+	align-items:center;
+}
+
+.flexFechaEvento{
+	/*display:flex;
+	align-items:center;*/
+	h6{
+		border-bottom: 1px solid darkorange;
+		padding-bottom: 3%;
+	}
+}
+
+.diaEvento{
+	margin-right: 9px;
+}
+
+.horaEvento{
+	margin-right: 9px;
+}
+
+.tituloDireccion{
+	display:block;
+}
+
+.direccionContainer{
+	margin-top: 8px;
+}
+
 @media (max-width: 768px){
 	.textSlideContainer{
-		h2, a{
-			display:none
-		}
-		
+		a{
+			display:none;
+		}		
 	}
 	#block-views-block-publicacion-imagen-block-1 {
 		margin-top: 1%;
 		padding: 0;
-	}
-
-	.botonSlide{
-		display:none !important;
 	}
 
 	.highlighted{
@@ -127,6 +168,25 @@ $color-background-text: rgba(0,0,0,0.45);
 	}
 	.navbar{
 		background-color: $color-border-title !important;
+	}
+}
+
+@media (max-width: 840px){
+
+	.textSlideContainer{
+		h2{
+			display: none;
+		}
+	}	
+}
+
+@media(max-width: 991px){
+	.publicationCardContainer{
+		margin-bottom: 1.5em;
+	}
+
+	.destacadoContainer{
+		margin-bottom:1.5em;
 	}
 }
 

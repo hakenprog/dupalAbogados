@@ -53,7 +53,7 @@ align-items: center;
 
 
 #block-views-block-nosotros-block-1{
-	text-align: center;
+	@include viewFormat();
 }
 .textoPagNosotros{
 	span{

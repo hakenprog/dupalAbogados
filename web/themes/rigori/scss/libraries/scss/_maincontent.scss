@@ -42,7 +42,7 @@ $color-background-text: rgba(0,0,0,0.45);
 	a{
 		font-size: 2em;
         	color: white;
-        	background-color: darkorange;
+        	background-color: $color-principal;
 	}
 	
 }
@@ -118,7 +118,7 @@ $color-background-text: rgba(0,0,0,0.45);
 
 .evento{
 	padding: 6%;
-	border: 1px solid darkorange;
+	border: 1px solid $color-principal;
         border-radius: 20px;
 }
 
@@ -131,7 +131,7 @@ $color-background-text: rgba(0,0,0,0.45);
 	/*display:flex;
 	align-items:center;*/
 	h6{
-		border-bottom: 1px solid darkorange;
+		border-bottom: 1px solid $color-principal;
 		padding-bottom: 3%;
 	}
 }
@@ -164,7 +164,7 @@ $color-background-text: rgba(0,0,0,0.45);
 	}
 
 	.highlighted{
-		margin-top:96px
+		margin-top:81px;
 	}
 	.navbar{
 		background-color: $color-border-title !important;
@@ -190,3 +190,12 @@ $color-background-text: rgba(0,0,0,0.45);
 	}
 }
 
+@media(min-width: 1900px){
+	.container-fluid{
+		max-width: 1900px;
+	}
+	.navbar{
+		background-color: $color-principal !important;
+	}
+
+}

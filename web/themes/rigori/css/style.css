@@ -5,7 +5,15 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body span {
   height: 0px; }
 
 #navbar-main {
-  background-color: transparent; }
+  background-color: transparent;
+  transition: 400ms; }
+
+.header-collapse {
+  background-color: #A5A5A6 !important;
+  transition: 400ms; }
+
+.logo {
+  transition: 400ms; }
 
 #block-views-block-footer-personalizado-block-1 {
   display: flex;
@@ -38,7 +46,7 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body span {
   height: 50px;
   align-items: center;
   justify-content: center;
-  background-color: darkorange;
+  background-color: #A5A5A6;
   color: white; }
 
 .perfilContenido {
@@ -57,7 +65,7 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body span {
   padding: 0 9%; }
   #block-views-block-perfiles-block-1 h2 {
     padding: 0px 0px 1% 0px;
-    border-bottom: 7px solid darkorange;
+    border-bottom: 7px solid #A5A5A6;
     display: inline-block;
     margin-bottom: 0; }
 
@@ -66,7 +74,7 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body span {
   padding: 0 9%; }
   #block-views-block-perfiles-home-block-1 h2 {
     padding: 0px 0px 1% 0px;
-    border-bottom: 7px solid darkorange;
+    border-bottom: 7px solid #A5A5A6;
     display: inline-block;
     margin-bottom: 0; }
 
@@ -90,20 +98,20 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body span {
   margin: 10% 10% 0 10%; }
   .textSlideContainer h1 {
     color: white;
-    border-bottom: 1px solid darkorange; }
+    border-bottom: 1px solid #A5A5A6; }
   .textSlideContainer h2 {
     color: white; }
   .textSlideContainer a {
     font-size: 2em;
     color: white;
-    background-color: darkorange; }
+    background-color: #A5A5A6; }
 
 #block-views-block-publicacion-imagen-block-1 {
   margin-top: 1%;
   padding: 0 9%; }
   #block-views-block-publicacion-imagen-block-1 h2 {
     padding: 0px 0px 1% 0px;
-    border-bottom: 7px solid darkorange;
+    border-bottom: 7px solid #A5A5A6;
     display: inline-block;
     margin-bottom: 0; }
 
@@ -118,11 +126,11 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body span {
   padding: 2%;
   /*top: 16%;*/
   background-color: rgba(0, 0, 0, 0.45);
-  border-top: darkorange solid 1px; }
+  border-top: #A5A5A6 solid 1px; }
   .textoPublicacion h5, .textoPublicacion h6, .textoPublicacion span {
     color: white; }
   .textoPublicacion div {
-    border-top: darkorange solid 2px; }
+    border-top: #A5A5A6 solid 2px; }
     .textoPublicacion div span {
       display: block;
       margin: 10px 0px 0px 0px; }
@@ -136,7 +144,7 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body span {
   padding: 0 9%; }
   #block-views-block-destacados-vista-block-1 h2 {
     padding: 0px 0px 1% 0px;
-    border-bottom: 7px solid darkorange;
+    border-bottom: 7px solid #A5A5A6;
     display: inline-block;
     margin-bottom: 0; }
 
@@ -162,7 +170,7 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body span {
   padding: 0 9%; }
   #block-views-block-vista-principal-eventos-block-1 h2 {
     padding: 0px 0px 1% 0px;
-    border-bottom: 7px solid darkorange;
+    border-bottom: 7px solid #A5A5A6;
     display: inline-block;
     margin-bottom: 0; }
 
@@ -172,7 +180,7 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body span {
 
 .evento {
   padding: 6%;
-  border: 1px solid darkorange;
+  border: 1px solid #A5A5A6;
   border-radius: 20px; }
 
 .tituloFechaEvento {
@@ -183,7 +191,7 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body span {
   /*display:flex;
   align-items:center;*/ }
   .flexFechaEvento h6 {
-    border-bottom: 1px solid darkorange;
+    border-bottom: 1px solid #A5A5A6;
     padding-bottom: 3%; }
 
 .diaEvento {
@@ -207,10 +215,10 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body span {
     padding: 0; }
 
   .highlighted {
-    margin-top: 96px; }
+    margin-top: 81px; }
 
   .navbar {
-    background-color: darkorange !important; } }
+    background-color: #A5A5A6 !important; } }
 @media (max-width: 840px) {
   .textSlideContainer h2 {
     display: none; } }
@@ -220,6 +228,47 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body span {
 
   .destacadoContainer {
     margin-bottom: 1.5em; } }
+@media (min-width: 1900px) {
+  .container-fluid, .container-xl {
+    max-width: 1900px; }
+
+  .navbar {
+    background-color: #A5A5A6 !important; } }
+#block-views-block-nosotros-block-1 {
+  text-align: center;
+  margin-top: 1%;
+  padding: 0 9%; }
+  #block-views-block-nosotros-block-1 h2 {
+    padding: 0px 0px 1% 0px;
+    border-bottom: 7px solid #A5A5A6;
+    display: inline-block;
+    margin-bottom: 0; }
+
+#block-views-block-perfilempresa-block-1 {
+  text-align: center;
+  margin-top: 1%;
+  padding: 0 9%; }
+  #block-views-block-perfilempresa-block-1 h2 {
+    padding: 0px 0px 1% 0px;
+    border-bottom: 7px solid #A5A5A6;
+    display: inline-block;
+    margin-bottom: 0; }
+
+.textoPagNosotros {
+  text-align: center; }
+  .textoPagNosotros p {
+    padding: 20px 0 0 0; }
+
+.textoPagPerfilEmpresa {
+  text-align: center; }
+  .textoPagPerfilEmpresa p {
+    padding: 20px 0 0 0; }
+
+.centrarContenido {
+  align-content: center;
+  justify-content: center;
+  display: flex; }
+
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors

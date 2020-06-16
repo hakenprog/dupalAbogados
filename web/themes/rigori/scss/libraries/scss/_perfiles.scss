@@ -56,8 +56,10 @@ align-items: center;
 }
 
 .integrantesTitulo{
-    padding: 0px 0px 1% 0px;
-    border-bottom: 7px solid $color-border-title;
-    display: inline-block;
-    margin-bottom: 0;     
+	h4{
+        padding: 0px 0px 1% 0px;
+        border-bottom: 7px solid $color-border-title;
+        display: inline-block;
+        margin-bottom: 0;
+	}
 }

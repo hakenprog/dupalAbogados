@@ -1,0 +1,39 @@
+#block-views-block-vista-publicaciones-completa-block-1{
+	@include viewFormat();
+	text-align: center;
+	h2{
+		margin-top:2%;
+	}
+	img{
+		border-radius: 10px;
+	}
+	
+	 h3, h4 {
+                        color: $title-text-color;
+	}
+	h3{
+		font-size: 2em;
+		border-bottom: 2px solid $color-principal;
+		display: inline-block;
+		padding-bottom: 1%;
+        }
+
+	nav{
+		ul{
+			display:flex;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+}
+
+.cuerpoPublicacionCompleta{
+	margin-top: 2%;
+	padding: 2%;
+	text-align: justify;
+}
+
+.publicacionCompletaContainer{
+	margin-top: 3%;
+	margin-bottom: 3%;
+}

@@ -5,7 +5,12 @@ global-styling:
   css:
     component:
       css/style.css: {}
-      css/colors.css: {}
+      
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+
 globar-scripts:
   js:
     js/navbar_scroll.js: {}
@@ -13,6 +18,8 @@ globar-scripts:
 bootstrap:
   js:
     scss/libraries/node_modules/bootstrap/dist/js/bootstrap.min.js: {}
+    
+
 bootstrap_cdn:
   js:
     //cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js: {}

@@ -53,13 +53,7 @@ align-items: center;
 #block-views-block-integrantes-block-1{
 	text-align: center;
 	@include viewFormat();
-	nav{
-		ul{
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
-	}
+	@include viewPagination();
 }
 
 .integrantesTitulo{

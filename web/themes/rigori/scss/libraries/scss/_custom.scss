@@ -2,7 +2,9 @@ $color-principal: #A5A5A6;
 $title-text-color: #3E3E3E;
 $color-border-title: $color-principal;
 
-
+.skip-link{
+	display:none;
+}
 
 body {
         h1, h2, h3, h4, h5, h6, p, span{
@@ -22,8 +24,25 @@ body {
         }
 }
 
+@mixin viewPagination{
 
-;
+	nav{
+    
+    	h4{
+        	display:none;
+        }
+        
+		ul{
+			display:flex;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+
+}
+
+
+
 $container-max-widths: (
 
 	xl:1250px

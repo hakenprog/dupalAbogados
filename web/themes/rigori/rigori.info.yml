@@ -9,7 +9,27 @@ libraries:
   - rigori/bootstrap
   - rigori/global-styling
   - rigori/globar-scripts
+  
 
+libraries-override:
+  # Barrio global styling theme.
+  bootstrap_barrio/global-styling: false 
+  bootstrap_barrio/messages_white: false
+  bootstrap_barrio/node: false
+  
+     
+  system/base: false
+  system/admin: false
+  system/maintenance: false
+  system/drupal.system: false
+  system/drupal.system.modules: false
+  system/diff: false
+  system/drupal.system.date: false
+  contextual/drupal.contextual-links: false
+  quickedit/quickedit: false
+  views/views.module: false
+  
+ 
 regions:
   top_header: 'Top header'
   top_header_form: 'Top header form'

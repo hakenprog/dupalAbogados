@@ -18,13 +18,7 @@
 		padding-bottom: 1%;
         }
 
-	nav{
-		ul{
-			display:flex;
-			justify-content: center;
-			align-items: center;
-		}
-	}
+	@include viewPagination();
 }
 
 .cuerpoPublicacionCompleta{

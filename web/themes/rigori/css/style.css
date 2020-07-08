@@ -498,6 +498,15 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body span {
 
   .navbar {
     background-color: #A5A5A6 !important; } }
+#block-views-block-about-block-1 {
+  margin-top: 1%;
+  padding: 0 9%; }
+  #block-views-block-about-block-1 h2 {
+    padding: 0px 0px 1% 0px;
+    border-bottom: 7px solid #A5A5A6;
+    display: inline-block;
+    margin-bottom: 0; }
+
 #block-views-block-nosotros-block-1 {
   text-align: center;
   margin-top: 1%;

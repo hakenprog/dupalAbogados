@@ -207,11 +207,19 @@ $color-background-text: rgba(0,0,0,0.45);
 	}
 
 }
-#block-views-block-about-block-1{
-	h2{
-		display:none;
-	}
-}
+
 .prueba{
-	background-color:red;
+	div{
+		div{
+			div{
+				div{
+					div{
+						div{
+							background-color: blue;
+						}
+					}
+				}
+			}
+		}
+	}
 }

@@ -207,3 +207,6 @@ $color-background-text: rgba(0,0,0,0.45);
 	}
 
 }
+#block-views-block-about-block-1{
+	@include viewFormat();
+}

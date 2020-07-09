@@ -208,16 +208,3 @@ $color-background-text: rgba(0,0,0,0.45);
 
 }
 
-.prueba{
-	div{
-		div{
-			div{
-				div{
-					div{
-						@include viewNodeTitle();						
-					}
-				}
-			}
-		}
-	}
-}

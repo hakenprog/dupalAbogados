@@ -44,6 +44,8 @@
   {% block content %}
     <div{{ content_attributes.addClass('prueba') }}>
       {{ content }}
+      {{ content.field_title.0 }}
     </div>
+
   {% endblock %}
 </div>

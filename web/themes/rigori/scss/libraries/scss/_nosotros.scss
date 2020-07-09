@@ -22,3 +22,20 @@
 	display: flex;
 }
 
+.contenido{
+	div{
+		div{
+			div{
+				div{
+					div{
+						div{
+							div{
+								@include viewFormat();
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

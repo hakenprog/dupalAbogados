@@ -2,209 +2,33 @@ $color-text-cards: white;
 $color-border-title: $color-principal;
 $color-background-text: rgba(0,0,0,0.45);
 
-#block-views-block-slide-articulos-principal-block-1{
-	position: absolute;
-	margin: 26% 30% 0px 30%;
-	width: 40%;	
-}
-
-.content {
-	
-}
-
-#main{
-	/*padding: 0%;*/
-
-}
-#content {
-	/*padding: 0%;*/
-}
-
-.slideBackground{
-	
-}
-
-.textSlide{
-	position:absolute;
-}
-
-.textSlideContainer{
-	top:3%;
-	border-radius:10px;
-	margin: 10% 10% 0 10%;
-	h1{
-		color:white;
-		border-bottom: 1px solid $color-border-title;
-        }
-        h2{
-		color:white;
-        }
-	a{
-		font-size: 2em;
-        	color: white;
-        	background-color: $color-principal;
-	}
-	
-}
-
-#block-views-block-publicacion-imagen-block-1{
-	@include viewFormat();
-}
- 
-.publicationCardContainer{
-	padding: 0px 0px 0px 0px;
-	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4) !important;
-	h5{
-		position: relative;
-		color: white;
-		margin: 0%;
-		padding: 0;
-		height: 0;
-		z-index: 1;
-		font-size: 2em;
-		top: 20px
-	}
-}
-
-.textoPublicacion{
-	color:$color-text-cards;
-	padding: 2%;
-	background-color: $color-background-text;
-	border-top: $color-border-title solid 1px;
-	h6, span{
-		color:white;
-	}
-	div {
-		border-top: $color-border-title solid 2px;
-		span{
-			display:block;
-			margin: 10px 0px 0px 0px;
-		}
-	}
-}
-
-.subtituloPublicacion{
-	display:block;
-	margin: 0 0 8% 0;
-}
-	
-#block-views-block-destacados-vista-block-1{
-	@include viewFormat();
-}
-
-.destacadosContainer{
-	min-height: 375px;
-	background-color: rgba(127, 127, 127,0.3);
-	h6{
-		font-size: 2em;
-		margin-bottom: 0.5em;
-		padding-top: 0.5em;
-	}
-	span{
-		display: block;
-		padding-top:1.5em;
-		padding-bottom: 1.5em;
-	}
-}
-
-.imgDestacadosContainer{
-	height: 100px;
-	display: flex;
-	justify-content: center;
-	align-content: center;
+.unformatted_view{
+	width:100%;
 }
 
 
-#block-views-block-vista-principal-eventos-block-1{
-	@include viewFormat();
+.background_hero{
+	background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-position: center center;
+    background-color: rgba(0,0,0,0.4);
+    h1, h2{
+    	color:white;
+    }
+    
+    h1{
+    	border-bottom: 2px solid $color-principal;
+    	display: inline-block;
+    }
+    
+    a{
+    	padding: 0.7em;
+        font-size: 1.5em;
+        margin-top: 2em;
+    }
 }
-
-.eventoContainer{
-	/*border: 1px solid darkorange;*/
-    	/*border-radius: 20px;*/	
-}
-
-.evento{
-	padding: 6%;
-	border: 1px solid $color-principal;
-        border-radius: 20px;
-}
-
-.tituloFechaEvento{
-	display:flex;
-	align-items:center;
-}
-
-.flexFechaEvento{
-	/*display:flex;
-	align-items:center;*/
-	h6{
-		border-bottom: 1px solid $color-principal;
-		padding-bottom: 3%;
-	}
-}
-
-.diaEvento{
-	margin-right: 9px;
-}
-
-.horaEvento{
-	margin-right: 9px;
-}
-
-.tituloDireccion{
-	display:block;
-}
-
-.direccionContainer{
-	margin-top: 8px;
-}
-
-@media (max-width: 768px){
-	.textSlideContainer{
-		a{
-			display:none;
-		}		
-	}
-	#block-views-block-publicacion-imagen-block-1 {
-		margin-top: 1%;
-		padding: 0;
-	}
-
-	.highlighted{
-		margin-top:81px;
-	}
-	.navbar{
-		background-color: $color-border-title !important;
-	}
-}
-
-@media (max-width: 840px){
-
-	.textSlideContainer{
-		h2{
-			display: none;
-		}
-	}	
-}
-
-@media(max-width: 991px){
-	.publicationCardContainer{
-		margin-bottom: 1.5em;
-	}
-
-	.destacadoContainer{
-		margin-bottom:1.5em;
-	}
-}
-
-@media(min-width: 1950px){
-	.container-fluid{
-		max-width: 1900px;
-	}
-	.navbar{
-		background-color: $color-principal !important;
-	}
-
-}
-

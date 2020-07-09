@@ -1,9 +1,14 @@
 .header{
-	height: 0px;
+
 	
 }
+
+.navbar{
+	position:fixed;
+	background-color: transparent!important;
+}
+
 #navbar-main {
-	background-color: rgba(0,0,0,0);
 	transition: 400ms;
 }
 
@@ -13,7 +18,9 @@
 }
 
 .logo {
+	padding: 0.5em;
 	transition:400ms;
+    max-width: 300px;
 }
 
 

@@ -34,9 +34,13 @@
 
 .imgAreas{
 	img{
-		opacity: 0.5;
+		opacity: 0.3;
 	}
 }
 .contenidoAreas{
 	@include viewFormat();
+	h2{
+		justify-content: center;
+		display: flex;
+	}
 }

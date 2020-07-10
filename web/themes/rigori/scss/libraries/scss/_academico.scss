@@ -32,8 +32,11 @@
 	margin-bottom: 3%;
 }
 
-.contenidoAreas{
+.imgAreas{
 	img{
 		opacity: 0.5;
 	}
+}
+.contenidoAreas{
+	@include viewFormat();
 }

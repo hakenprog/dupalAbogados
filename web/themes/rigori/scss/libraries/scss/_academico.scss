@@ -35,6 +35,8 @@
 .imgAreas{
 	img{
 		opacity: 0.3;
+		object-fit: cover;
+   		width: 100%;
 	}
 }
 .contenidoAreas{

@@ -34,7 +34,7 @@
 
 .imgAreas{
 	img{
-		opacity: 0.3;
+		opacity: 0.6;
 		object-fit: cover;
    		width: 100%;
 	}
@@ -50,4 +50,8 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
+}
+
+.containerMargin{
+	margin: 25px 0 25px 0;
 }

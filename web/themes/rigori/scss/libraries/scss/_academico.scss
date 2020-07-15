@@ -42,6 +42,7 @@
 	@include viewFormat();
 	h2{
 		justify-content: center;
+		color: white;
 		display: flex;
 	}
 	img{
@@ -51,9 +52,12 @@
 	}
 	p{
 		text-align: center;
+		font-size: 20px;
+		color: white;
 	}
 }
 
 .containerMargin{
 	margin: 50px 0 0 0;
+	background-color: gray;
 }

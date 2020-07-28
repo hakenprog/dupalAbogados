@@ -1,12 +1,11 @@
 <div class="container-fluid w-100 containerMargin">
-<div class="row no-gutters">
+<div class="row">
 <div class="col container contenidoAreas">
     <h2 class="card-title">{{ content.field_titulo_area_derecho.0 }}</h2>
-    {{ content.field_logo_area_derecho.0 }}
-    <p >{{ content.body.0 }}</p>
+    <img src={{ content.field_logo_area_derecho.0 }}}>
+    <p>{{ content.body.0 }}</p>
 </div>
-<div class="col d-none d-lg-block imgAreas">
-  {{ content.field_img_area_derecho.0 }}
+<div class="col d-none d-lg-block imgAreas" style= "background-image: url('{{ content.field_img_area_derecho.0 }}')">
 </div>
 </div>
 </div>

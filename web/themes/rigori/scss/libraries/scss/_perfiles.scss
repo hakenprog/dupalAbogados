@@ -1,66 +1,104 @@
-.perfilCampo{
-background-color: #D6855C;
-text-align: center;
-font-size: inherit;
-display: flex;
-height: 60px;
-align-items: baseline;
-justify-content: center;
-align-items: center;
-	a{
-		color: white;
-		text-decoration: none;
-	}
-	a:hover {
-  			text-decoration: none;
-  			color: white;
-	}	
+.perfilCampo {
+  background-color: #d6855c;
+  text-align: center;
+  font-size: inherit;
+  display: flex;
+  height: 60px;
+  align-items: baseline;
+  justify-content: center;
+  align-items: center;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: none;
+    color: white;
+  }
 }
 
-.perfilTarjeta{
-	padding-top: 50px;
+.perfilTarjeta {
+  padding-top: 50px;
 }
 
-.perfilEmail{
-	display: flex;
-	height: 50px;
-	align-items: center;
-	justify-content: center;
-	background-color: $color-principal;
-	color: white;
+.perfilEmail {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  background-color: $color-principal;
+  color: white;
 }
-.perfilContenido{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.perfilBloque{
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.perfilContenido {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#block-views-block-perfiles-block-1{
-	@include viewFormat();
+.perfilBloque {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#block-views-block-perfiles-home-block-1{
-	@include viewFormat();
+#block-views-block-perfiles-block-1 {
+  @include viewFormat();
 }
 
-#block-views-block-integrantes-block-1{
-	text-align: center;
-	@include viewFormat();
-	@include viewPagination();
+#block-views-block-perfiles-home-block-1 {
+  @include viewFormat();
 }
 
-.integrantesTitulo{
-	h4{
-        padding: 0px 0px 1% 0px;
-        border-bottom: 7px solid $color-border-title;
-        display: inline-block;
-        margin-bottom: 0;
-	}
+#block-views-block-integrantes-block-1 {
+  text-align: center;
+  @include viewFormat();
+  @include viewPagination();
+}
+
+.integrantesTitulo {
+  h4 {
+    padding: 0px 0px 1% 0px;
+    border-bottom: 7px solid $color-border-title;
+    display: inline-block;
+    margin-bottom: 0;
+  }
+}
+
+.imgPerfil {
+  display: block;
+  margin: auto;
+}
+
+.bodyPerfil {
+  ul {
+    font-size: 20px;
+    margin-top: 50px;
+  }
+}
+
+.contenidoPerfil {
+  @include viewFormat();
+  min-height: 500px;
+  h2 {
+    justify-content: center;
+    color: #3e3e3e;
+    display: flex;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  p {
+    text-align: center;
+    font-size: 25px;
+    color: #3e3e3e;
+  }
+  ul {
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
 }

@@ -1,14 +1,14 @@
-.textoAbout{
-	p{
-	    padding: 15px 0 15px 0;
-	}
-	text-align: center;
+.textoAbout {
+  p {
+    padding: 15px 0 15px 0;
+    font-size: 20px;
+  }
+  text-align: center;
 }
 
-
-.centrarContenido{
-	align-content: center;
-	justify-content: center;
-	display: flex;
-	@include viewFormat();
+.centrarContenido {
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  @include viewFormat();
 }
